@@ -54,9 +54,36 @@ node scripts/build.mjs <path/to/agency-agents-zh-checkout>
 
 构建脚本递归扫描各专家目录（排除仅含文档的 `strategy/`），只收录带 `name` + `description` frontmatter 的 Markdown，并校验 skill 名唯一且为 kebab-case。
 
-## 关闭
+## 配置
 
-不想加载专家技能时，在 profile 的 `cordis.patch.yml` 里禁用该 loader 行即可：
+默认注册全部 268 个专家。不想全量压给模型时，在 profile 的 `cordis.patch.yml` 里给该 loader 行加 `config` 过滤：
+
+```yaml
+- id: agency-agents-zh
+  config:
+    categories: [engineering, marketing, design]   # 部门白名单：只注册这些
+    excludeCategories: [specialized]               # 部门黑名单：剔除这些（优先于白名单）
+    maxSkills: 60                                  # 总量上限：超出按列表顺序截断并告警
+```
+
+三者都可选、可组合；不配置 = 注册全部（向后兼容）。类型写错会启动即报错（fail loud）；白名单里写不存在的部门会被忽略并告警。
+
+**部门目录名对照**：
+
+| 目录 | 部门 | 目录 | 部门 |
+|---|---|---|---|
+| `academic` | 学术 | `marketing` | 营销 (42) |
+| `design` | 设计 | `paid-media` | 付费媒体 |
+| `engineering` | 工程 (42) | `product` | 产品 |
+| `finance` | 金融 | `project-management` | 项目管理 |
+| `game-development` | 游戏开发 | `sales` | 销售 |
+| `gis` | GIS | `security` | 安全 |
+| `hr` | 人力资源 | `spatial-computing` | 空间计算 |
+| `legal` | 法务 | `specialized` | 专项 (58) |
+| `supply-chain` | 供应链 | `support` | 支持 |
+| `testing` | 测试 | | |
+
+想整体关掉插件，禁用 loader 行即可：
 
 ```yaml
 - id: agency-agents-zh
