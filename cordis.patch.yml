@@ -1,0 +1,7 @@
+# Bundle layer contributed by the agency-agents-zh-dsh-plugin package.
+# When a profile lists this bundle, this patch inserts one loader row that
+# mounts the host module. The module registers every agency-agents-zh agent
+# as a native dsh skill via ctx.skills.register().
+- insert:
+    - id: agency-agents-zh
+      name: agency-agents-zh-dsh-plugin
