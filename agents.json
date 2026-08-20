@@ -56,7 +56,7 @@
   },
   {
     "name": "academic-study-planner",
-    "description": "面向中国考生和终身学习者的个性化学习规划专家，精通考研、考公、司法考试、CPA 等重大考试的备考策略，擅长运用费曼学习法、艾宾浩斯遗忘曲线、番茄钟等科学方法，帮助学习者制定高效的学习计划并持续优化。",
+    "description": "学习规划专家：考研/考公/法考/CPA 备考策略，费曼学习法、艾宾浩斯曲线与番茄钟，制定并持续优化学习计划。",
     "metadata": {
       "title": "学习规划师",
       "emoji": "📚",
@@ -100,7 +100,7 @@
   },
   {
     "name": "design-persona-walkthrough",
-    "description": "从设定好的 persona（用户画像）心理视角出发，对网页进行认知走查的模拟——捕捉每个滚动位置上的情绪反应与理性思考，再输出植根于 LIFT、Cialdini、Fogg 框架的结构化 CRO 报告",
+    "description": "persona 认知走查模拟：从用户画像心理视角捕捉滚动中的情绪与思考，输出基于 LIFT/Cialdini/Fogg 的结构化 CRO 报告。",
     "metadata": {
       "title": "Persona 走查专家",
       "emoji": "🎭",
@@ -166,7 +166,7 @@
   },
   {
     "name": "engineering-ai-data-remediation-engineer",
-    "description": "自愈数据管道专家——使用气隙隔离的本地 SLM 和语义聚类，自动检测、分类和修复大规模数据异常。专注于修复层：拦截坏数据、通过 Ollama 生成确定性修复逻辑，并保证零数据丢失。不是通用数据工程师——而是当你的数据出了问题且管道不能停的时候，出手的外科手术级专家。",
+    "description": "自愈数据管道专家：气隙 SLM + 语义聚类，自动检测分类修复数据异常。专注修复层，Ollama 生成确定性修复逻辑，零数据丢失。",
     "metadata": {
       "title": "AI 数据修复工程师",
       "emoji": "🧹",
@@ -243,7 +243,7 @@
   },
   {
     "name": "engineering-data-engineer",
-    "description": "专注于构建可靠数据管线、湖仓架构和可扩展数据基础设施的数据工程专家。精通 ETL/ELT、Apache Spark、dbt、流处理系统和云数据平台，将原始数据转化为可信赖的分析就绪资产。",
+    "description": "数据工程专家：可靠数据管线、湖仓架构、ETL/ELT、Spark、dbt、流处理与云数据平台，产出分析就绪资产。",
     "metadata": {
       "title": "数据工程师",
       "emoji": "📊",
@@ -254,7 +254,7 @@
   },
   {
     "name": "engineering-database-optimizer",
-    "description": "数据库性能专家，专注于 Schema 设计、查询优化、索引策略和性能调优，精通 PostgreSQL、MySQL 及 Supabase、PlanetScale 等现代数据库。",
+    "description": "数据库性能专家：Schema 设计、查询优化、索引策略，精通 PostgreSQL/MySQL/Supabase/PlanetScale。",
     "metadata": {
       "title": "数据库优化师",
       "emoji": "🗄️",
@@ -276,7 +276,7 @@
   },
   {
     "name": "engineering-dingtalk-integration-developer",
-    "description": "专注钉钉开放平台全栈集成开发的工程专家，精通钉钉机器人、酷应用、审批流自动化、连接器低代码集成、钉钉小程序、宜搭平台对接及与阿里云生态的深度集成，擅长构建企业级协作与业务自动化解决方案。",
+    "description": "钉钉开放平台全栈集成专家：机器人、酷应用、审批流、连接器、宜搭与阿里云生态深度集成。",
     "metadata": {
       "title": "钉钉集成开发工程师",
       "emoji": "🔗",
@@ -287,7 +287,7 @@
   },
   {
     "name": "engineering-drupal-shopping-cart",
-    "description": "资深 Drupal 电商工程师，精通 Drupal Commerce，负责商品目录管理、支付网关集成、checkout 流程设计、订单管理、税费与促销配置，以及在 Drupal 10/11 上交付高可靠的店面",
+    "description": "Drupal 电商工程师：Drupal Commerce 目录、支付网关、checkout、订单、税费促销，Drupal 10/11 高可靠店面。",
     "metadata": {
       "title": "Drupal 购物车工程师",
       "emoji": "🛒",
@@ -309,7 +309,7 @@
   },
   {
     "name": "engineering-embedded-firmware-engineer",
-    "description": "裸机和 RTOS 固件开发专家——精通 ESP32/ESP-IDF、PlatformIO、Arduino、ARM Cortex-M、STM32 HAL/LL、Nordic nRF5/nRF Connect SDK、FreeRTOS、Zephyr。",
+    "description": "裸机与 RTOS 固件开发专家：ESP32/PlatformIO/STM32/FreeRTOS/Zephyr 与 ARM Cortex-M。",
     "metadata": {
       "title": "嵌入式固件工程师",
       "emoji": "🔧",
@@ -320,7 +320,7 @@
   },
   {
     "name": "engineering-embedded-linux-driver-engineer",
-    "description": "嵌入式 Linux 内核驱动与 BSP 开发专家——精通 Linux 内核模块、设备树、Platform/I2C/SPI/USB 驱动框架、DMA、中断子系统、Yocto/Buildroot、U-Boot、交叉编译工具链。",
+    "description": "嵌入式 Linux 驱动/BSP 专家：内核模块、设备树、I2C/SPI/USB 驱动、DMA 与 Yocto/Buildroot。",
     "metadata": {
       "title": "嵌入式 Linux 驱动工程师",
       "emoji": "🔌",
@@ -331,7 +331,7 @@
   },
   {
     "name": "engineering-feishu-integration-developer",
-    "description": "专注飞书开放平台全栈集成开发的工程专家，精通飞书机器人、小程序、审批流、多维表格（Bitable）、消息卡片、Webhook、SSO 单点登录及工作流自动化，擅长在飞书生态内构建企业级协作与自动化解决方案。",
+    "description": "飞书开放平台全栈集成专家：机器人、小程序、审批流、多维表格、消息卡片、Webhook、SSO 与企业级自动化。",
     "metadata": {
       "title": "飞书集成开发工程师",
       "emoji": "🐦",
@@ -353,7 +353,7 @@
   },
   {
     "name": "engineering-fpga-digital-design-engineer",
-    "description": "FPGA 与 ASIC 数字前端设计专家——精通 Verilog/SystemVerilog、VHDL、Vivado/Quartus、AXI/AHB 总线、时序收敛、Zynq/Intel SoC FPGA、高层次综合（HLS）。",
+    "description": "FPGA/ASIC 数字前端专家：Verilog/SystemVerilog/VHDL、Vivado/Quartus、AXI/AHB、时序收敛与 HLS。",
     "metadata": {
       "title": "FPGA/ASIC 数字设计工程师",
       "emoji": "🔬",
@@ -397,7 +397,7 @@
   },
   {
     "name": "engineering-iot-solution-architect",
-    "description": "物联网端到端方案设计专家——精通设备接入（MQTT/CoAP/LwM2M）、边缘计算、云平台（AWS IoT/Azure IoT/阿里云 IoT）、OTA、设备管理、数据管道和安全体系。",
+    "description": "物联网端到端方案架构师：MQTT/CoAP 接入、边缘计算、AWS/Azure/阿里云 IoT、OTA、设备管理与数据管道。",
     "metadata": {
       "title": "IoT 方案架构师",
       "emoji": "📡",
@@ -408,7 +408,7 @@
   },
   {
     "name": "engineering-it-service-manager",
-    "description": "资深 IT 服务管理（ITSM）专家，运用 ITIL 4 框架进行服务目录设计、incident（事件）与 problem（问题）管理、变更控制、SLA 治理、CMDB 维护以及持续服务改进——确保 IT 在任何规模的组织中都能交付可靠、可衡量的业务价值",
+    "description": "ITSM 专家：ITIL 4 服务目录、事件与问题管理、变更控制、SLA 治理、CMDB 与持续服务改进。",
     "metadata": {
       "title": "IT 服务经理",
       "emoji": "🖧",
@@ -419,7 +419,7 @@
   },
   {
     "name": "engineering-mechanical-design-engineer",
-    "description": "通用机械产品设计专家——精通方案选型、传动/机构/结构件/连接设计、强度刚度疲劳振动校核、DFMA 与标准件选型，遵循 GB/ISO/JIS 国家标准，输出可制造可装配的工程图与 BOM。",
+    "description": "机械产品设计专家：方案选型、传动机构结构设计、强度刚度校核、DFMA 与标准件，遵循 GB/ISO/JIS，输出工程图与 BOM。",
     "metadata": {
       "title": "机械设计工程师",
       "emoji": "⚙️",
@@ -452,7 +452,7 @@
   },
   {
     "name": "engineering-multi-agent-systems-architect",
-    "description": "系统架构师，专精于 multi-agent（多智能体）AI 流水线的设计、协调与治理——涵盖拓扑选型、上下文管理、智能体间信任、故障恢复、human-in-the-loop（人在环中）门控，以及面向生产级智能体系统的可观测性。",
+    "description": "多智能体 AI 流水线架构师：拓扑选型、上下文管理、智能体信任、故障恢复、human-in-the-loop 门控与可观测性。",
     "metadata": {
       "title": "多智能体系统架构师",
       "emoji": "🕸️",
@@ -463,7 +463,7 @@
   },
   {
     "name": "engineering-network-engineer-china",
-    "description": "面向国产网络设备的企业网工程专家——精通华为 VRP、华三 Comware、锐捷 RGOS，覆盖园区网/数据中心/广域网的 VLAN、STP、OSPF、IS-IS、BGP、MPLS、VXLAN、SDN 设计与排障，熟悉信创国产化替代与等保 2.0 合规组网。",
+    "description": "国产网络设备企业网专家：华为 VRP/华三 Comware/锐捷 RGOS，VLAN/OSPF/BGP/VXLAN 设计与排障，信创与等保 2.0。",
     "metadata": {
       "title": "国内网络工程师",
       "emoji": "🌐",
@@ -485,7 +485,7 @@
   },
   {
     "name": "engineering-pc-host-engineer",
-    "description": "Qt/QML 桌面上位机开发专家——精通 Qt Widgets/Quick、QSerialPort 串口、Modbus/CAN/TCP 工业协议、QChart/QCustomPlot 实时数据可视化，以及与 STM32/ESP32 等下位机的协议对接和跨平台打包部署。",
+    "description": "Qt/QML 上位机开发专家：串口、Modbus/CAN/TCP 工业协议、实时数据可视化，STM32/ESP32 下位机对接与跨平台打包。",
     "metadata": {
       "title": "上位机工程师",
       "emoji": "🖥️",
@@ -551,7 +551,7 @@
   },
   {
     "name": "engineering-solidity-smart-contract-engineer",
-    "description": "精通 EVM 智能合约架构、Gas 优化、可升级代理模式、DeFi 协议开发和安全优先合约设计的 Solidity 开发专家，覆盖 Ethereum 及 L2 链。",
+    "description": "Solidity 智能合约专家：EVM 架构、Gas 优化、可升级代理、DeFi 协议与安全优先设计，覆盖以太坊及 L2。",
     "metadata": {
       "title": "Solidity 智能合约工程师",
       "emoji": "📝",
@@ -595,7 +595,7 @@
   },
   {
     "name": "engineering-voice-ai-integration-engineer",
-    "description": "专精于使用 Whisper 系列模型和云端 ASR 服务构建端到端语音转录流水线——从原始音频采集、预处理、转录文本清洗、字幕生成、说话人分离，到结构化下游集成至应用、API 和 CMS 平台。",
+    "description": "语音转录流水线专家：Whisper 系列与云端 ASR，覆盖采集、预处理、清洗、字幕、说话人分离到应用/API/CMS 集成。",
     "metadata": {
       "title": "语音 AI 集成工程师",
       "emoji": "🎙️",
@@ -606,7 +606,7 @@
   },
   {
     "name": "engineering-wechat-mini-program-developer",
-    "description": "专注微信小程序全栈开发的工程专家，精通 WXML/WXSS/WXS、微信原生API、微信支付集成、订阅消息、云开发，擅长在微信生态内构建高性能、体验流畅的小程序应用。",
+    "description": "微信小程序全栈专家：WXML/WXSS/WXS、原生 API、微信支付、订阅消息与云开发，构建流畅小程序。",
     "metadata": {
       "title": "微信小程序开发者",
       "emoji": "💬",
@@ -617,7 +617,7 @@
   },
   {
     "name": "engineering-wordpress-shopping-cart",
-    "description": "WordPress 电商专家工程师，专精 WooCommerce，负责商品目录管理、payment gateway 集成、checkout 定制、订单管理、税费与优惠券配置，以及在 WordPress 上交付以转化率为导向的店铺",
+    "description": "WordPress 电商工程师：WooCommerce 商品目录、支付网关、checkout、订单、税费优惠券，以转化率为导向。",
     "metadata": {
       "title": "WordPress 购物车工程师",
       "emoji": "🛍️",
@@ -672,7 +672,7 @@
   },
   {
     "name": "finance-fraud-detector",
-    "description": "专注交易欺诈检测与金融风险防控的分析专家，精通支付宝/微信支付/银联渠道的风控策略、反洗钱合规、电信诈骗识别、央行征信应用和互联网金融风控体系搭建，帮助企业守住资金安全底线。",
+    "description": "交易欺诈检测专家：支付宝/微信/银联风控、反洗钱合规、电诈识别、征信应用与互金风控体系。",
     "metadata": {
       "title": "金融风控分析师",
       "emoji": "🕵️",
@@ -683,7 +683,7 @@
   },
   {
     "name": "finance-hk-stock-compliance-reviewer",
-    "description": "资深香港股市合规审查专家，精通HKEX上市规则、SFC监管条例、公司条例及证券及期货条例。提供上市申请合规审查、持续责任监督、关联交易合规、披露义务审核及企业管治顾问服务。",
+    "description": "香港股市合规审查专家：HKEX 上市规则、SFC 条例、关联交易与披露义务审核、企业管治顾问。",
     "metadata": {
       "title": "香港股市合规审查专家",
       "emoji": "⚖️",
@@ -694,7 +694,7 @@
   },
   {
     "name": "finance-investment-researcher",
-    "description": "专业投资研究员，精通市场研究、尽职调查、投资组合分析和资产估值。通过严谨的基本面和量化分析识别投资机会、评估风险，支持数据驱动的投资组合决策，覆盖公开股票、私募市场和另类资产。",
+    "description": "投资研究员：市场研究、尽职调查、组合分析与资产估值，基本面+量化识别机会、评估风险。",
     "metadata": {
       "title": "投资研究员",
       "emoji": "🔍",
@@ -705,7 +705,7 @@
   },
   {
     "name": "finance-invoice-manager",
-    "description": "专注中国企业发票全生命周期管理的财税专家，精通增值税专用发票与普通发票管理、金税系统操作、电子发票推广、三单匹配、报销审批和税务合规，帮助企业实现发票管理的规范化和数字化。",
+    "description": "发票全生命周期管理专家：增值税专普票、金税系统、电子发票、三单匹配、报销审批与税务合规。",
     "metadata": {
       "title": "发票管理专家",
       "emoji": "🧾",
@@ -782,7 +782,7 @@
   },
   {
     "name": "godot-shader-developer",
-    "description": "Godot 4 视觉效果专家——精通 Godot 着色语言（类 GLSL）、VisualShader 编辑器、CanvasItem 和 Spatial shader、后处理及性能优化，面向 2D/3D 效果",
+    "description": "Godot 4 着色器专家：Godot 着色语言、VisualShader、CanvasItem/Spatial shader、后处理与性能优化。",
     "metadata": {
       "title": "Godot Shader 开发者",
       "emoji": "🎨",
@@ -815,7 +815,7 @@
   },
   {
     "name": "roblox-avatar-creator",
-    "description": "Roblox UGC 与虚拟形象管线专家——精通 Roblox 虚拟形象系统、UGC 物品制作、配件绑定、纹理标准和 Creator Marketplace 提交流程",
+    "description": "Roblox UGC 与虚拟形象管线专家：头像系统、UGC 物品、配件绑定、纹理标准与市场提交流程。",
     "metadata": {
       "title": "Roblox 虚拟形象创作者",
       "emoji": "🧑‍🎨",
@@ -837,7 +837,7 @@
   },
   {
     "name": "roblox-systems-scripter",
-    "description": "Roblox 平台工程专家——精通 Luau、客户端-服务端安全模型、RemoteEvent/RemoteFunction、DataStore 和模块架构，面向可扩展的 Roblox 体验",
+    "description": "Roblox 平台工程专家：Luau、客户端-服务端安全模型、RemoteEvent/DataStore 与模块化架构。",
     "metadata": {
       "title": "Roblox 系统脚本工程师",
       "emoji": "⚙️",
@@ -870,7 +870,7 @@
   },
   {
     "name": "unity-editor-tool-developer",
-    "description": "Unity 编辑器自动化专家——精通自定义 EditorWindow、PropertyDrawer、AssetPostprocessor、ScriptedImporter 和管线自动化，每周为团队节省数小时",
+    "description": "Unity 编辑器自动化专家：EditorWindow、PropertyDrawer、AssetPostprocessor 与管线自动化。",
     "metadata": {
       "title": "Unity 编辑器工具开发者",
       "emoji": "🔧",
@@ -881,7 +881,7 @@
   },
   {
     "name": "unity-multiplayer-engineer",
-    "description": "联网游戏专家——精通 Netcode for GameObjects、Unity Gaming Services（Relay/Lobby）、客户端-服务端权威、延迟补偿和状态同步",
+    "description": "联网游戏专家：Netcode for GameObjects、Unity Gaming Services、客户端-服务端权威、延迟补偿与状态同步。",
     "metadata": {
       "title": "Unity 多人游戏工程师",
       "emoji": "🌐",
@@ -914,7 +914,7 @@
   },
   {
     "name": "unreal-systems-engineer",
-    "description": "性能与混合架构专家——精通 C++/Blueprint 边界、Nanite 几何体、Lumen GI 和 Gameplay Ability System，面向 AAA 级 Unreal Engine 项目",
+    "description": "UE 性能与混合架构专家：C++/Blueprint 边界、Nanite、Lumen GI 与 GAS，面向 AAA 级项目。",
     "metadata": {
       "title": "Unreal 系统工程师",
       "emoji": "⚙️",
@@ -947,7 +947,7 @@
   },
   {
     "name": "gis-3d-scene-developer",
-    "description": "Web 三维可视化专家，使用 Cesium、ArcGIS Scene Viewer 及现代三维 Web 框架，打造沉浸式三维场景、地形模型、点云可视化和交互式 Web 体验。",
+    "description": "Web 三维可视化专家：Cesium、ArcGIS Scene Viewer、三维场景、地形、点云可视化与交互体验。",
     "metadata": {
       "title": "三维场景开发者",
       "emoji": "🏔️",
@@ -991,7 +991,7 @@
   },
   {
     "name": "gis-drone-reality-mapping",
-    "description": "摄影测量与实景采集专家，把无人机影像处理成 orthomosaic（正射影像）、数字地形模型、point cloud（点云）和三维网格——打通现场采集与 GIS 可用成果之间的链路。",
+    "description": "无人机摄影测量专家：影像处理为正射影像、DTM、点云与三维网格，打通现场采集到 GIS 成果链路。",
     "metadata": {
       "title": "无人机实景测绘专家",
       "emoji": "🛸",
@@ -1013,7 +1013,7 @@
   },
   {
     "name": "gis-geoprocessing-specialist",
-    "description": "精通 ArcPy 与 Python 工具箱的自动化专家，专攻空间工作流自动化——构建 .pyt 工具箱、Model Builder 流程、批量地理处理自动化，以及为 ArcGIS Pro 编写自定义分析脚本。",
+    "description": "ArcPy 与 Python 地理处理自动化专家：.pyt 工具箱、Model Builder、批量地理处理，为 ArcGIS Pro 写自定义脚本。",
     "metadata": {
       "title": "地理处理专家",
       "emoji": "⚙️",
@@ -1079,7 +1079,7 @@
   },
   {
     "name": "gis-web-gis-developer",
-    "description": "全栈 Web GIS 工程师，负责构建交互式地图应用——MapLibre GL JS、ArcGIS JS API、Leaflet、实时仪表盘、REST API 集成与地理空间 Web 服务。",
+    "description": "全栈 Web GIS 工程师：MapLibre/ArcGIS JS API/Leaflet 交互式地图、实时仪表盘与地理空间 Web 服务。",
     "metadata": {
       "title": "Web GIS 开发工程师",
       "emoji": "🌐",
@@ -1090,7 +1090,7 @@
   },
   {
     "name": "hr-performance-reviewer",
-    "description": "深耕中国企业绩效管理体系的实战专家，精通 OKR/KPI 双轨制、360 度反馈、绩效校准会、PIP 改进计划等全流程绩效管理，帮助企业建立科学公正的绩效评估与人才发展机制。",
+    "description": "企业绩效管理专家：OKR/KPI 双轨、360 反馈、绩效校准会与 PIP，建立科学公正的绩效机制。",
     "metadata": {
       "title": "绩效管理专家",
       "emoji": "📋",
@@ -1101,7 +1101,7 @@
   },
   {
     "name": "hr-recruiter",
-    "description": "深耕中国人才市场的全流程招聘专家，精通 Boss 直聘、猎聘、拉勾等主流招聘渠道运营，擅长简历筛选、面试协调、人才管线管理、校招社招全链路操盘，帮助企业高效精准地完成人才获取与入职闭环。",
+    "description": "中国人才市场全流程招聘专家：Boss/猎聘/拉勾渠道运营、简历筛选、面试协调、校招社招与人才管线管理。",
     "metadata": {
       "title": "招聘专家（HR 全流程）",
       "emoji": "🎯",
@@ -1112,7 +1112,7 @@
   },
   {
     "name": "legal-contract-reviewer",
-    "description": "精通中国《民法典》合同编及商业合同实务的法律专家，擅长合同风险识别、条款审查与修改建议，熟悉电子签章、争议解决机制、违约金条款设计，帮助企业在商业交易中有效防控法律风险。",
+    "description": "商业合同专家：《民法典》合同编、风险识别、条款审查修改、电子签章与违约金条款设计。",
     "metadata": {
       "title": "合同审查专家",
       "emoji": "📑",
@@ -1123,7 +1123,7 @@
   },
   {
     "name": "legal-policy-writer",
-    "description": "精通中国数据合规法律体系的企业制度文件撰写专家，擅长内部管理制度、隐私政策、用户协议等法律文书起草，深谙《个人信息保护法》《数据安全法》《网络安全法》三法合规要求，帮助企业构建完整的合规制度体系。",
+    "description": "数据合规制度文件专家：隐私政策、用户协议起草，深谙个保法/数安法/网安法，构建企业合规制度体系。",
     "metadata": {
       "title": "制度文件撰写专家",
       "emoji": "📜",
@@ -1134,7 +1134,7 @@
   },
   {
     "name": "marketing-aeo-foundations",
-    "description": "AI 引擎优化基础设施专家——落地 llms.txt、AI 感知的 robots.txt、token 预算化内容、结构化 Markdown 可用性，以及 agent 发现文件，让 AI 爬虫、引用引擎和浏览型 agent 能找到、解析并执行你的站点内容",
+    "description": "AI 引擎优化（AEO）基础设施专家：llms.txt、AI 感知 robots.txt、token 预算化内容，让 AI 爬虫能发现并解析站点。",
     "metadata": {
       "title": "AEO 基础架构师",
       "emoji": "🏗️",
@@ -1156,7 +1156,7 @@
   },
   {
     "name": "marketing-ai-citation-strategist",
-    "description": "AI 推荐引擎优化（AEO/GEO）专家，审计品牌在 ChatGPT、Claude、Gemini、Perplexity 等平台的可见性，分析竞品被引用的原因，提供提升 AI 引用率的内容优化方案。",
+    "description": "AEO/GEO 专家：审计品牌在 ChatGPT/Claude/Gemini/Perplexity 的可见性，分析竞品被引原因，提升 AI 引用率。",
     "metadata": {
       "title": "AI 引文策略师",
       "emoji": "🤖",
@@ -1211,7 +1211,7 @@
   },
   {
     "name": "marketing-carousel-growth-engine",
-    "description": "自动化短视频轮播图生成专家，分析任意网站URL，通过Gemini生成病毒式6张轮播图，经Upload-Post API自动发布到抖音和Instagram，抓取数据分析并持续迭代优化。",
+    "description": "短视频轮播图自动化专家：分析 URL，Gemini 生成 6 张病毒式轮播图，自动发布抖音/Instagram 并迭代优化。",
     "metadata": {
       "title": "轮播图增长引擎",
       "emoji": "🎠",
@@ -1255,7 +1255,7 @@
   },
   {
     "name": "marketing-cross-border-ecommerce",
-    "description": "专注跨境电商全链路运营的策略专家，精通Amazon/Shopee/Lazada/AliExpress/Temu/TikTok Shop等海外平台运营、国际物流与海外仓、跨境合规税务、多语言Listing优化、品牌出海及DTC独立站建设。",
+    "description": "跨境电商全链路运营专家：Amazon/Shopee/TikTok Shop 等平台、国际物流海外仓、跨境合规税务、Listing 优化与 DTC 独立站。",
     "metadata": {
       "title": "跨境电商运营专家",
       "emoji": "🌐",
@@ -1266,7 +1266,7 @@
   },
   {
     "name": "marketing-daily-news-briefing",
-    "description": "国内外多源新闻实时采集与结构化简报生成，为内容创作团队提供高质量新闻素材。支持按类型（科技/财经/社会/国际等）筛选，交叉验证信源，输出下游 agent 可直接使用的结构化简报。",
+    "description": "多源新闻实时采集与结构化简报生成：按科技/财经/社会筛选，交叉验证信源，输出下游 agent 可用的简报。",
     "metadata": {
       "title": "新闻情报官",
       "emoji": "📰",
@@ -1299,7 +1299,7 @@
   },
   {
     "name": "marketing-email-strategist",
-    "description": "资深邮件营销策略师，专注于 CRM 驱动的营销活动、生命周期自动化、分群架构与可送达性。基于 2025-2026 基准数据、AI 驱动的个性化以及后 Apple MPP 时代的衡量体系，设计各类序列（欢迎、培育、再激活、挽回、评价、转介绍）。",
+    "description": "邮件营销策略师：CRM 生命周期自动化、分群架构与可送达性，AI 个性化与后 Apple MPP 衡量体系，覆盖欢迎/培育/再激活/挽回序列。",
     "metadata": {
       "title": "邮件营销策略师",
       "emoji": "📧",
@@ -1310,7 +1310,7 @@
   },
   {
     "name": "marketing-global-podcast-strategist",
-    "description": "资深播客增长专家，专注节目定位、受众培育、内容策略与变现。把粗糙的想法打磨成权威音频品牌，在 Spotify、Apple Podcasts 和 YouTube 上让听众与营收随时间持续复利增长。",
+    "description": "播客增长专家：节目定位、受众培育、内容策略与变现，在 Spotify/Apple/YouTube 上复利增长听众与营收。",
     "metadata": {
       "title": "全球播客策略师",
       "emoji": "🎙️",
@@ -1343,7 +1343,7 @@
   },
   {
     "name": "marketing-knowledge-commerce-strategist",
-    "description": "专注中国知识付费生态的产品设计与商业化专家，精通得到、知识星球、小报童、小鹅通、千聊等平台运营，擅长知识产品定义、内容定价策略、用户运营、IP打造、分销体系设计和全链路数据分析。",
+    "description": "知识付费产品设计与商业化专家：得到/星球/小报童/小鹅通运营，知识产品定义、定价、用户运营与分销体系。",
     "metadata": {
       "title": "知识付费产品策划师",
       "emoji": "🎓",
@@ -1365,7 +1365,7 @@
   },
   {
     "name": "marketing-linkedin-content-creator",
-    "description": "专注于 LinkedIn 个人品牌打造和专业内容创作的策略师，深谙 LinkedIn 算法与社区文化，通过高质量内容为创始人、求职者、技术人和职场人带来真实的商业机会与人脉增长。",
+    "description": "LinkedIn 个人品牌与内容策略师：算法与社区文化，为创始人/求职者/技术人带来商业机会与人脉增长。",
     "metadata": {
       "title": "LinkedIn 内容创作专家",
       "emoji": "💼",
@@ -1376,7 +1376,7 @@
   },
   {
     "name": "marketing-livestream-commerce-coach",
-    "description": "专注直播电商全链路的主播培训与直播间运营专家，精通抖音/快手/淘宝直播/视频号四大平台的直播话术设计、选品排品策略、付费流与自然流的流量配比、转化逼单技巧，以及基于实时数据的直播间调优方法论。",
+    "description": "直播电商主播培训与运营专家：抖音/快手/淘宝/视频号话术、选品排品、付费流配比、逼单技巧与实时调优。",
     "metadata": {
       "title": "直播电商主播教练",
       "emoji": "📡",
@@ -1387,7 +1387,7 @@
   },
   {
     "name": "marketing-multi-platform-publisher",
-    "description": "一键中文博客发布的专家级编排官。把同一篇文章通过 Wechatsync(主通道)路由到 知乎 / 小红书 / CSDN / B站 / 公众号 / 掘金,并以 xhs-mcp 和 biliup 作为专用兜底。负责各平台内容适配、草稿优先发布、频率控制与风险规避。绝不自动发布——始终停在草稿阶段交由人工审核。",
+    "description": "中文博客一键多平台发布编排官：经 Wechatsync 路由知乎/小红书/CSDN/B站/公众号/掘金，始终停在草稿交人工审核。",
     "metadata": {
       "title": "多平台发布编排官",
       "emoji": "📡",
@@ -1398,7 +1398,7 @@
   },
   {
     "name": "marketing-podcast-strategist",
-    "description": "专注中国播客市场的内容策略与运营专家，精通小宇宙、喜马拉雅等主流平台生态，擅长节目定位、音频制作、听众增长、多平台分发及商业化变现，助力播客主理人打造高粘性音频内容品牌。",
+    "description": "中国播客内容策略与运营专家：小宇宙/喜马拉雅生态，节目定位、音频制作、听众增长与商业化。",
     "metadata": {
       "title": "播客内容策略师",
       "emoji": "🎙️",
@@ -1409,7 +1409,7 @@
   },
   {
     "name": "marketing-pr-communications-manager",
-    "description": "战略性公共关系与传播专家，负责 media relations（媒体关系）、press release（新闻稿）、crisis communications（危机传播）、高管思想领导力、品牌声誉管理与整合传播规划——通过 earned media（赢得式媒体）、故事化叙事和主动的叙事掌控来建立并守护声誉",
+    "description": "公关与传播专家：媒体关系、新闻稿、危机传播、高管思想领导力与品牌声誉管理，通过赢得式媒体和故事化叙事守护声誉。",
     "metadata": {
       "title": "PR 与传播经理",
       "emoji": "📣",
@@ -1453,7 +1453,7 @@
   },
   {
     "name": "marketing-short-video-editing-coach",
-    "description": "专注短视频剪辑技术全链路的实战教练，精通剪映/CapCut专业版、Premiere Pro、DaVinci Resolve、Final Cut Pro四大剪辑工具，覆盖画面构图与镜头语言、调色与色彩校正、音频工程、动态图形与特效、字幕排版、多平台输出优化、剪辑工作流效率提升以及AI辅助剪辑等核心技术领域。",
+    "description": "短视频剪辑实战教练：剪映/CapCut/Premiere/DaVinci/FCP 四大工具，覆盖调色、音频、特效、字幕与多平台输出。",
     "metadata": {
       "title": "短视频剪辑指导师",
       "emoji": "✂️",
@@ -1541,7 +1541,7 @@
   },
   {
     "name": "marketing-weixin-channels-strategist",
-    "description": "专注微信视频号生态的内容策略与增长运营专家，精通社交推荐机制、公众号/朋友圈/小程序/企微生态联动、视频号直播带货、短视频内容策划、私域引流闭环和创作者数据分析。",
+    "description": "微信视频号增长专家：社交推荐机制、公众号/小程序/企微联动、直播带货、私域引流闭环与数据分析。",
     "metadata": {
       "title": "微信视频号运营策略师",
       "emoji": "📹",
@@ -1596,7 +1596,7 @@
   },
   {
     "name": "paid-media-auditor",
-    "description": "系统化评估 Google Ads、Microsoft Ads 和 Meta 广告账户的全方位审计专家，覆盖账户结构、追踪、出价、创意、受众和竞争定位等 200+ 检查点，输出可执行的审计报告。",
+    "description": "广告账户审计专家：Google/Microsoft/Meta 200+ 检查点，覆盖结构、追踪、出价、创意、受众与竞争定位。",
     "metadata": {
       "title": "付费媒体审计师",
       "emoji": "📋",
@@ -1618,7 +1618,7 @@
   },
   {
     "name": "paid-media-paid-social-strategist",
-    "description": "跨平台社交广告专家，覆盖 Meta（Facebook/Instagram）、LinkedIn、TikTok（抖音海外版）、Pinterest、X 和 Snapchat，设计从拉新到再营销的全链路社交广告体系。",
+    "description": "跨平台社交广告专家：Meta/LinkedIn/TikTok/Pinterest/X/Snapchat 全链路广告体系，从拉新到再营销。",
     "metadata": {
       "title": "社交广告策略师",
       "emoji": "📱",
@@ -1629,7 +1629,7 @@
   },
   {
     "name": "paid-media-ppc-strategist",
-    "description": "资深付费搜索策略专家，擅长 Google Ads、Microsoft Advertising 和 Amazon Ads 的大规模账户架构、预算分配和出价策略，能驾驭月花 1 万到 1000 万的账户。",
+    "description": "付费搜索策略专家：Google Ads/Microsoft/Amazon Ads 大规模账户架构、预算分配与出价，覆盖月花 1 万到 1000 万账户。",
     "metadata": {
       "title": "PPC 竞价策略师",
       "emoji": "🎯",
@@ -1640,7 +1640,7 @@
   },
   {
     "name": "paid-media-programmatic-buyer",
-    "description": "展示广告与程序化媒介采买专家，覆盖 Google Display Network、DV360、The Trade Desk 等 DSP 平台、合作媒体采买及 ABM 展示广告策略。",
+    "description": "程序化媒介采买专家：GDN、DV360、The Trade Desk 等 DSP、合作媒体与 ABM 展示广告策略。",
     "metadata": {
       "title": "程序化广告采买专家",
       "emoji": "💰",
@@ -1662,7 +1662,7 @@
   },
   {
     "name": "paid-media-tracking-specialist",
-    "description": "转化追踪架构、代码管理和归因模型专家，精通 GTM、GA4、Google Ads、Meta CAPI、LinkedIn Insight Tag 及服务端追踪实施，确保每一个转化都被正确计数。",
+    "description": "转化追踪专家：GTM、GA4、Google Ads、Meta CAPI、服务端追踪与归因，确保每次转化都被正确计数。",
     "metadata": {
       "title": "追踪与归因专家",
       "emoji": "📡",
@@ -1695,7 +1695,7 @@
   },
   {
     "name": "product-manager",
-    "description": "全局型产品负责人，掌控产品全生命周期——从需求发现、战略规划到路线图制定、干系人对齐、GTM 落地与结果度量。在商业目标、用户需求与技术现实之间架起桥梁，确保在正确的时间交付正确的产品。",
+    "description": "产品负责人：全生命周期管理，从需求发现、战略规划、路线图到 GTM 与结果度量，平衡商业目标与技术现实。",
     "metadata": {
       "title": "产品经理",
       "emoji": "📦",
@@ -1805,7 +1805,7 @@
   },
   {
     "name": "sales-account-strategist",
-    "description": "售后客户拓展专家，擅长 Land-and-Expand 执行、干系人关系图谱、QBR 策划及净收入留存率管理。通过系统化扩展规划和多线程客户关系经营，将成交客户发展为长期平台合作。",
+    "description": "售后客户拓展专家：Land-and-Expand、干系人图谱、QBR 与净收入留存，将成交客户发展为长期平台合作。",
     "metadata": {
       "title": "客户拓展策略师",
       "emoji": "💼",
@@ -1816,7 +1816,7 @@
   },
   {
     "name": "sales-coach",
-    "description": "专注销售团队能力提升的教练专家，擅长 Pipeline Review、通话辅导、单子策略和 Forecast 准确度管理。通过结构化辅导方法和行为反馈，让每个销售和每笔单子都变得更好。",
+    "description": "销售教练：Pipeline Review、通话辅导、单子策略与 Forecast 准确度，用结构化辅导让销售和单子更好。",
     "metadata": {
       "title": "销售教练",
       "emoji": "🏋️",
@@ -1827,7 +1827,7 @@
   },
   {
     "name": "sales-deal-strategist",
-    "description": "资深赢单策略师，专精 MEDDPICC 资质审查、竞争定位和复杂 B2B 销售周期的赢单规划。为每笔单子评分、暴露 Pipeline 风险、构建经得起 Forecast Review 检验的赢单策略。",
+    "description": "赢单策略师：MEDDPICC 资质审查、竞争定位与复杂 B2B 赢单规划，暴露 Pipeline 风险并构建可过 Forecast Review 的策略。",
     "metadata": {
       "title": "赢单策略师",
       "emoji": "🏆",
@@ -1860,7 +1860,7 @@
   },
   {
     "name": "sales-offer-lead-gen-strategist",
-    "description": "漏斗顶端（top-of-funnel）架构师，设计无法抗拒的 offer 和 lead magnet，规模化吸引高质量买家。专精于价值方程式（value equation）offer 构建、lead magnet 类型学、多渠道 lead generation，以及通过客户、员工、代理机构和联盟（affiliate）实现复利式触达。",
+    "description": "漏斗顶端 offer 与 lead magnet 设计专家，专精价值方程式、多渠道 lead generation 与复利式触达，规模化吸引高质量买家。",
     "metadata": {
       "title": "Offer 与 Lead Gen 策略师",
       "emoji": "🧲",
@@ -1882,7 +1882,7 @@
   },
   {
     "name": "sales-pipeline-analyst",
-    "description": "收入运营分析师，专精 Pipeline 健康诊断、单子速度分析、Forecast 准确度和数据驱动的销售辅导。将 CRM 数据转化为可行动的 Pipeline 情报，在风险变成丢掉的季度之前就把它暴露出来。",
+    "description": "收入运营分析师：Pipeline 健康诊断、单子速度、Forecast 准确度与数据驱动销售辅导，把 CRM 数据变成可行动情报。",
     "metadata": {
       "title": "Pipeline 分析师",
       "emoji": "📊",
@@ -1915,7 +1915,7 @@
   },
   {
     "name": "security-architect",
-    "description": "资深安全架构师，专精威胁建模（threat modeling）、安全设计（secure-by-design）架构、信任边界分析、纵深防御（defense in depth），以及面向 Web、API、云原生和分布式系统的基于风险的安全评审。负责设计安全模型；把代码级 SAST/DAST 与 SDLC 工作交给 AppSec 工程师。",
+    "description": "安全架构师：威胁建模、安全设计、信任边界、纵深防御与风险评审，面向 Web/API/云原生/分布式系统。",
     "metadata": {
       "title": "安全架构师",
       "emoji": "🛡️",
@@ -1981,7 +1981,7 @@
   },
   {
     "name": "security-senior-secops",
-    "description": "防御型应用安全专家。在做任何事之前，先扫描每一次代码提交，检查密钥泄露和敏感数据暴露；随后依据组织的安全标准实现或审计各项安全控制——涵盖认证、授权、令牌、Cookie、HTTP 头、CORS、限流、CSP、密钥管理、输入校验和安全日志。",
+    "description": "防御型应用安全专家：先扫密钥泄露与敏感数据，再实现/审计认证、授权、Cookie、CORS、限流、CSP、密钥管理与输入校验。",
     "metadata": {
       "title": "高级安全运营工程师",
       "emoji": "🛡️",
@@ -1992,7 +1992,7 @@
   },
   {
     "name": "security-threat-detection-engineer",
-    "description": "资深检测工程师，专注于 SIEM 规则开发、MITRE ATT&CK 覆盖映射、威胁狩猎、告警调优，以及面向安全运营团队的 detection-as-code（检测即代码）流水线。",
+    "description": "检测工程师：SIEM 规则开发、MITRE ATT&CK 覆盖映射、威胁狩猎、告警调优与 detection-as-code。",
     "metadata": {
       "title": "威胁检测工程师（安全运营）",
       "emoji": "🎯",
@@ -2135,7 +2135,7 @@
   },
   {
     "name": "change-management-consultant",
-    "description": "资深变革管理专家，运用 ADKAR、Kotter 和 Prosci 框架，引导组织顺利完成技术落地、组织重构、文化转型与并购整合——管理阻力、推动接纳，并确保变革在上线之后长久落地",
+    "description": "变革管理专家：ADKAR/Kotter/Prosci 框架落地技术转型、组织重构、文化转型与并购整合。",
     "metadata": {
       "title": "变革管理顾问",
       "emoji": "🔄",
@@ -2168,7 +2168,7 @@
   },
   {
     "name": "customer-success-manager",
-    "description": "战略型客户成功专家，负责 onboarding（新客导入）、health scoring（健康度评分）、QBR 主持、churn（流失）防控、扩张机会识别与续约管理——通过把客户变成能取得可量化成果的长期伙伴，驱动 net revenue retention（净收入留存）",
+    "description": "客户成功专家：onboarding、健康度评分、QBR、流失防控、扩张机会与续约管理，驱动净收入留存。",
     "metadata": {
       "title": "客户成功经理",
       "emoji": "🌟",
@@ -2190,7 +2190,7 @@
   },
   {
     "name": "data-privacy-officer",
-    "description": "企业数据隐私专家与 DPO（数据保护官），负责构建 GDPR、CCPA 及全球隐私合规体系——覆盖数据测绘、隐私影响评估、同意管理、泄露响应、供应商尽职调查与监管沟通。",
+    "description": "数据隐私专家/DPO：GDPR、CCPA 隐私合规体系，数据测绘、隐私影响评估、泄露响应与监管沟通。",
     "metadata": {
       "title": "数据隐私官",
       "emoji": "🔐",
@@ -2201,7 +2201,7 @@
   },
   {
     "name": "esg-sustainability-officer",
-    "description": "企业可持续发展战略专家与 ESG 信息披露专员，负责搭建 environmental、social、governance（环境、社会、治理）项目，管理信息披露，推动 decarbonization（脱碳）行动，并使业务战略与利益相关方及监管预期保持一致。",
+    "description": "ESG 与企业可持续发展专家：环境/社会/治理项目搭建、信息披露、脱碳行动，对齐监管与利益相关方预期。",
     "metadata": {
       "title": "ESG 与可持续发展官",
       "emoji": "🌱",
@@ -2212,7 +2212,7 @@
   },
   {
     "name": "gaokao-college-advisor",
-    "description": "中国高考志愿填报策略专家，精通平行志愿与院校专业组填报规则、位次法与等位分析、新高考选科组合与专业限选、提前批与专项计划、院校层次定位、冲稳保策略，帮助考生和家长制定科学的志愿填报方案。",
+    "description": "高考志愿填报专家：平行志愿、位次法、新高考选科、提前批专项、冲稳保策略，制定科学填报方案。",
     "metadata": {
       "title": "高考志愿填报顾问",
       "emoji": "🎓",
@@ -2223,7 +2223,7 @@
   },
   {
     "name": "government-digital-presales-consultant",
-    "description": "面向中国政务市场（ToG）的数字化项目售前专家，精通政策解读、方案设计、标书编写、POC 验证、合规要求（等保/密评/信创）及客户关系管理，帮助技术团队高效赢得政府信息化项目。",
+    "description": "政务 ToG 售前专家：政策解读、方案设计、标书、POC、等保/密评/信创合规与客户关系，赢取政府项目。",
     "metadata": {
       "title": "政务数字化售前顾问",
       "emoji": "🏛️",
@@ -2234,7 +2234,7 @@
   },
   {
     "name": "grant-writer",
-    "description": "资深 grant writing（基金申请写作）专家，服务于非营利组织、科研机构与社会企业——覆盖资助方调研（prospect research）、意向函（letter of inquiry）撰写、完整 proposal 开发、budget narrative、联邦与基金会 grant、以及结项后报告，最大化获资成功率",
+    "description": "基金申请写作专家：资助方调研、意向函、proposal 开发、预算叙述与结项报告，服务非营利组织、科研机构与社会企业，最大化获资成功率。",
     "metadata": {
       "title": "资助申请撰稿人",
       "emoji": "📝",
@@ -2256,7 +2256,7 @@
   },
   {
     "name": "healthcare-marketing-compliance",
-    "description": "深耕中国医疗健康行业营销合规的专家，精通《广告法》《医疗广告管理办法》《药品管理法》等法规，覆盖药品、医疗器械、医美、保健品、互联网医疗等细分领域的营销合规审查、内容风控、平台规则解读及患者隐私保护，帮助企业在合法合规的前提下高效开展健康营销。",
+    "description": "中国医疗健康营销合规专家：《广告法》《医疗广告管理办法》审查、内容风控、平台规则与患者隐私，覆盖药品/医美/保健品/互联网医疗。",
     "metadata": {
       "title": "医疗健康营销合规师",
       "emoji": "🏥",
@@ -2267,7 +2267,7 @@
   },
   {
     "name": "hospitality-guest-services",
-    "description": "全面的酒店宾客服务专家，覆盖酒店、度假村、餐厅和活动场所——涵盖预订、入住/退房、礼宾服务、宾客投诉处理、忠诚度计划管理和离店后跟进，打造卓越的宾客体验以驱动忠诚度和收入增长。",
+    "description": "酒店宾客服务专家：预订、入住/退房、礼宾、投诉处理、忠诚度计划，打造卓越体验驱动复购。",
     "metadata": {
       "title": "酒店宾客服务专家",
       "emoji": "🏨",
@@ -2311,7 +2311,7 @@
   },
   {
     "name": "legal-billing-time-tracking",
-    "description": "全面的律所计费与工时追踪专家，负责精准工时记录、发票生成、计费叙述撰写、应收账款管理、信托账户合规和计费分析——在保持客户关系和道德合规的同时最大化收入回收，适用于任何规模的律所和计费模式。",
+    "description": "律所计费与工时追踪专家：工时记录、发票、计费叙述、应收管理、信托合规，最大化收入回收。",
     "metadata": {
       "title": "律所计费与工时专家",
       "emoji": "⏱️",
@@ -2377,7 +2377,7 @@
   },
   {
     "name": "ma-integration-manager",
-    "description": "并购(M&A)整合专家，负责设计并执行并购后整合(PMI)项目——涵盖 Day 1 就绪、百日计划、synergy(协同效应)追踪、文化整合、职能工作流协调，以及过渡服务协议(TSA)管理。",
+    "description": "并购整合专家：PMI 项目设计执行，Day 1 就绪、百日计划、协同效应追踪、文化整合与 TSA 管理。",
     "metadata": {
       "title": "M&A 整合经理",
       "emoji": "🤝",
@@ -2388,7 +2388,7 @@
   },
   {
     "name": "medical-billing-coding-specialist",
-    "description": "精通 ICD-10-CM/PCS、CPT、HCPCS 编码的医疗账单与编码专家，擅长 claim（理赔单）提交、denial（拒付）管理、收入周期优化、合规审计与 payer（付款方）合同分析——为各种规模的医疗服务提供方最大化 clean claim 率（一次通过率）和收入回收",
+    "description": "医疗账单与编码专家：ICD-10/CPT/HCPCS 编码、理赔提交、拒付管理、收入周期优化与 payer 合同分析，最大化 clean claim 率。",
     "metadata": {
       "title": "医疗账单与编码专员",
       "emoji": "🏥",
@@ -2399,7 +2399,7 @@
   },
   {
     "name": "operations-manager",
-    "description": "业务运营专家，把 Lean（精益）、Six Sigma（六西格玛）和系统思维应用到流程梳理、产能规划、KPI 治理、供应商管理和组织效率提升上——将运营的复杂性转化为可复制、可衡量的绩效。",
+    "description": "业务运营专家：Lean/Six Sigma/系统思维落地流程梳理、产能规划、KPI 治理与组织效率提升。",
     "metadata": {
       "title": "运营经理",
       "emoji": "⚙️",
@@ -2410,7 +2410,7 @@
   },
   {
     "name": "organizational-psychologist",
-    "description": "应用型组织心理学家，诊断团队动力、psychological safety（心理安全感）、burnout（职业倦怠）风险与文化健康度——用循证框架帮助领导者打造高绩效、有韧性、心理安全的组织。",
+    "description": "组织心理学家：诊断团队动力、心理安全感、职业倦怠与文化健康度，用循证框架打造高绩效韧性组织。",
     "metadata": {
       "title": "组织心理学家",
       "emoji": "🧠",
@@ -2498,7 +2498,7 @@
   },
   {
     "name": "specialized-ai-policy-writer",
-    "description": "面向中国企业和机构的 AI 治理与合规专家，精通《生成式 AI 管理办法》、算法备案制度、深度合成管理规定、大模型安全评估流程及 AI 伦理审查机制，帮助组织构建符合中国监管要求的 AI 治理框架并落地执行。",
+    "description": "中国 AI 治理合规专家：《生成式 AI 管理办法》、算法备案、深度合成规定、大模型安全评估与 AI 伦理审查落地。",
     "metadata": {
       "title": "AI 治理政策专家",
       "emoji": "📜",
@@ -2520,7 +2520,7 @@
   },
   {
     "name": "specialized-civil-engineer",
-    "description": "精通全球标准的土木与结构工程专家——覆盖 Eurocode、DIN、ACI、AISC、ASCE、AS/NZS、CSA、GB、IS、AIJ 等。专长领域包括结构分析、岩土设计、施工文件编制、建筑规范合规以及多标准国际项目协调。",
+    "description": "土木结构工程专家：Eurocode/DIN/ACI/AISC/GB 等标准，结构分析、岩土设计、施工文件与多标准国际项目。",
     "metadata": {
       "title": "土木工程师",
       "emoji": "🏗️",
@@ -2597,7 +2597,7 @@
   },
   {
     "name": "specialized-meeting-assistant",
-    "description": "面向中国企业的会议管理与效率提升专家，精通飞书、钉钉、腾讯会议等协作平台，擅长会议纪要撰写、行动项追踪、议程设计、OKR 周会组织及跨时区会议协调，帮助团队将会议从\"时间黑洞\"变为\"决策引擎\"。",
+    "description": "中国企业管理效率专家：飞书/钉钉/腾讯会议，会议纪要、行动项追踪、议程设计与 OKR 周会，把会议变决策引擎。",
     "metadata": {
       "title": "会议效率专家",
       "emoji": "📅",
@@ -2630,7 +2630,7 @@
   },
   {
     "name": "specialized-pricing-optimizer",
-    "description": "专注电商动态定价与促销策略的价格优化专家，精通淘宝、京东、拼多多等平台的价格机制、大促定价规则、竞品价格监控和利润最大化策略，帮助商家在激烈的价格战中实现利润与销量的最优平衡。",
+    "description": "电商动态定价专家：淘宝/京东/拼多多价格机制、大促规则、竞品监控与利润最大化策略。",
     "metadata": {
       "title": "动态定价策略师",
       "emoji": "💲",
@@ -2641,7 +2641,7 @@
   },
   {
     "name": "specialized-risk-assessor",
-    "description": "面向中国企业的全面风险管理专家，精通国企风控体系建设、内控合规（COSO 框架本土化）、审计整改、ESG 风险管理及供应链风险评估，帮助企业构建系统化的风险识别、评估与应对机制，提升组织韧性。",
+    "description": "中国国企全面风险管理专家：风控体系、COSO 本土化内控、审计整改、ESG 与供应链风险评估。",
     "metadata": {
       "title": "企业风险评估师",
       "emoji": "⚖️",
@@ -2674,7 +2674,7 @@
   },
   {
     "name": "specialized-workflow-architect",
-    "description": "工作流设计专家，为每个系统、用户旅程和智能体交互绘制完整的工作流树——涵盖正常路径、所有分支条件、故障模式、恢复路径、交接契约和可观测状态，产出可直接用于构建的规格说明，让开发人员据此实现、QA 据此测试。",
+    "description": "工作流设计专家：为系统/用户旅程/智能体交互绘制完整工作流树，含分支、故障模式、恢复路径与交接契约。",
     "metadata": {
       "title": "工作流架构师",
       "emoji": "🔄",
@@ -2685,7 +2685,7 @@
   },
   {
     "name": "study-abroad-advisor",
-    "description": "覆盖美英加澳欧港新的全阶段留学规划专家，精通本科/硕士/博士申请策略、选校定位、文书打磨、背景提升、标化规划、签证准备和海外生活适应，帮助中国学生制定个性化的全链路留学方案。",
+    "description": "留学规划专家：美英加澳欧港新，本科/硕博申请、选校定位、文书、背景提升与签证，全链路个性化方案。",
     "metadata": {
       "title": "留学规划顾问",
       "emoji": "✈️",
@@ -2707,7 +2707,7 @@
   },
   {
     "name": "zk-steward",
-    "description": "秉承 Niklas Luhmann 卡片盒笔记法精神的知识库管家。默认视角为 Luhmann；按任务切换领域专家（Feynman、Munger、Ogilvy 等）。强制原子笔记、连接性和验证闭环。适用于知识库建设、笔记链接、复杂任务分解和跨领域决策支持。",
+    "description": "卡片盒笔记法知识库管家（Luhmann 视角）：强制原子笔记、连接性与验证闭环，支持知识库建设、复杂任务分解与跨领域决策。",
     "metadata": {
       "title": "ZK 管家",
       "emoji": "🔐",
@@ -2718,7 +2718,7 @@
   },
   {
     "name": "supply-chain-garment-factory-planning-engineer",
-    "description": "全球多基地服装工厂规划专家——精通牛仔/羽绒服/无痕内衣/针织产线全流程设计，覆盖场地规划、产能测算、设备选型、精益优化与多国合规，支持中文/英文/法语/柬埔寨语",
+    "description": "服装工厂规划专家：牛仔/羽绒/无痕内衣/针织产线设计、场地规划、产能测算、精益优化与多国合规。",
     "metadata": {
       "title": "服装工厂规划工程师",
       "emoji": "🏭",
@@ -2729,7 +2729,7 @@
   },
   {
     "name": "supply-chain-inventory-forecaster",
-    "description": "专注需求预测与库存管理的供应链专家，擅长基于历史销售数据和市场趋势的精准需求预测、安全库存计算、补货策略优化，帮助企业在中国电商大促节奏下实现\"不断货、不积压\"的库存平衡。",
+    "description": "需求预测与库存管理专家：历史数据趋势预测、安全库存计算、补货策略，实现大促节奏下不断货不积压。",
     "metadata": {
       "title": "库存预测专家",
       "emoji": "📦",
@@ -2762,7 +2762,7 @@
   },
   {
     "name": "supply-chain-vendor-evaluator",
-    "description": "专注供应商全生命周期管理的采购策略专家，擅长供应商筛选与评分、验厂审核、质量管理体系搭建、账期与成本谈判，帮助企业在1688等采购平台上建立稳定可靠的供应商体系。",
+    "description": "供应商全生命周期管理专家：筛选评分、验厂审核、质量体系搭建、账期成本谈判，1688 平台供应商体系。",
     "metadata": {
       "title": "供应商评估专家",
       "emoji": "🔍",
@@ -2784,7 +2784,7 @@
   },
   {
     "name": "support-executive-summary-generator",
-    "description": "像资深战略顾问一样思考和表达的 AI 专家，擅长把复杂的业务信息压缩成简洁、可执行的高管摘要。用 McKinsey SCQA、BCG Pyramid Principle、Bain 框架帮 C-level 在三分钟内做出决策。",
+    "description": "高管摘要专家：用 McKinsey SCQA、BCG Pyramid 把复杂业务压缩成可执行摘要，帮 C-level 三分钟决策。",
     "metadata": {
       "title": "高管摘要师",
       "emoji": "📝",
