@@ -12,6 +12,7 @@
 import { readdirSync, readFileSync, writeFileSync, statSync, mkdirSync } from 'node:fs'
 import { join, basename, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import descriptionOverrides from './descriptions.overrides.mjs'
 
 const root = fileURLToPath(new URL('..', import.meta.url))
 const sourceDir = process.argv[2] ?? join(root, 'vendor', 'agency-agents-zh')
@@ -108,7 +109,7 @@ for (const category of AGENT_DIRS) {
     seen.set(name, file)
     agents.push({
       name,
-      description: fields.description,
+      description: descriptionOverrides[name] ?? fields.description,
       whenToUse: fields.whenToUse || fields['适用场景'] || undefined,
       metadata: {
         title: fields.name,
