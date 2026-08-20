@@ -1,6 +1,6 @@
 {
   "name": "agency-agents-zh-dsh-plugin",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "DeepSeek Harness (dsh) plugin: registers the agency-agents-zh Chinese AI expert agent library (268 roles across 20 departments) as native skills",
   "type": "module",
   "main": "index.js",
