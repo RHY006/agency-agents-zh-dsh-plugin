@@ -6,16 +6,25 @@
 
 ## 安装
 
-在 dsh 仓库（或任意能调用 dsh CLI 的目录）下：
+> 前置要求：本机已安装 `git`（`github:` 安装依赖 pnpm 调用 git 拉取仓库）。
+
+**方式一（推荐，GitHub 托管）**
+
+```sh
+dsh plugin --profile web add "github:RHY006/agency-agents-zh-dsh-plugin"
+```
+
+**方式二（本地目录）**
 
 ```sh
 dsh plugin --profile web add ./agency-agents-zh-dsh-plugin
 ```
 
-或直接装打包产物：
+**方式三（npm tarball）**
 
 ```sh
-pnpm pack                       # 在插件目录生成 agency-agents-zh-dsh-plugin-1.0.0.tgz
+npm pack --dry-run            # 确认内容
+npm pack                      # 生成 agency-agents-zh-dsh-plugin-1.0.0.tgz
 dsh plugin --profile web add ./agency-agents-zh-dsh-plugin-1.0.0.tgz
 ```
 
