@@ -1,0 +1,40 @@
+{
+  "name": "agency-agents-zh-dsh-plugin",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness (dsh) plugin: registers the agency-agents-zh Chinese AI expert agent library (268 roles across 20 departments) as native skills",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "agents.json",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "agency-agents",
+    "ai-agents",
+    "skills",
+    "chinese"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jnMetaCode/agency-agents-zh"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
