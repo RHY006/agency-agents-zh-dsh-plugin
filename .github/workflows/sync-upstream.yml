@@ -1,0 +1,54 @@
+name: Sync upstream agency-agents-zh
+
+on:
+  schedule:
+    # Every Monday 03:00 UTC
+    - cron: '0 3 * * 1'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout plugin repo
+        uses: actions/checkout@v4
+
+      - name: Checkout upstream
+        uses: actions/checkout@v4
+        with:
+          repository: jnMetaCode/agency-agents-zh
+          ref: main
+          path: upstream
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Rebuild agents.json from upstream
+        run: node scripts/build.mjs "$GITHUB_WORKSPACE/upstream"
+
+      - name: Check for content changes
+        id: changes
+        run: |
+          if git diff --quiet agents.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Bump patch version
+        if: steps.changes.outputs.changed == 'true'
+        run: node -e "const fs=require('fs');const p='package.json';const j=JSON.parse(fs.readFileSync(p,'utf8'));const [maj,min,pat]=j.version.split('.').map(Number);j.version=maj+'.'+min+'.'+(pat+1);fs.writeFileSync(p,JSON.stringify(j,null,2)+'\n')"
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add agents.json package.json
+          git commit -m "sync: rebuild agents.json from upstream agency-agents-zh"
+          git push
